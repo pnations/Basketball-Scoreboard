@@ -1,3 +1,5 @@
+Basketball Scoreboard
+
 The Mobile Basketball Scoreboard is a dynamic and interactive application designed to simplify scorekeeping during basketball games.
 
 Optimized for mobile devices, this app allows users to keep track of team scores and game progress in real time. With an intuitive interface and responsive design, it delivers a professional feel for casual or competitive games.
