@@ -8,9 +8,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main class="container">
+    <main id="container">
         <section class="team home">
-            <h1>HOME</h1>
+            <input id="homeName" class="team-name" value="Home" />
             <div id="homeScore" class="score">0</div>
             <div class="buttons">
                 <button class="score-btn" onclick="addPoints('home', 1)" aria-label="Add 1 point to Home">+1</button>
@@ -19,7 +19,7 @@
             </div>
         </section>
         <section class="team guest">
-            <h1>GUEST</h1>
+            <input id="guestName" class="team-name" value="Guest" />
             <div id="guestScore" class="score">0</div>
             <div class="buttons">
                 <button class="score-btn" onclick="addPoints('guest', 1)" aria-label="Add 1 point to Guest">+1</button>
@@ -27,8 +27,8 @@
                 <button class="score-btn" onclick="addPoints('guest', 3)" aria-label="Add 3 points to Guest">+3</button>
             </div>
         </section>
+            <button id="newGame-btn" onclick="reset()">New Game</button>
     </main>
-    <button id="newGame-btn" onclick="reset()">New Game</button>
     <script src="index.js"></script>
 </body>
 </html>

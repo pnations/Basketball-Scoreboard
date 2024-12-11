@@ -25,5 +25,5 @@ function reset() {
     highlightLeader();
 }
 
-// Initialize the scoreboard
 reset();
+

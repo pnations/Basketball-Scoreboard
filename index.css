@@ -1,98 +1,116 @@
+@font-face {
+    font-family: 'CursedTimer'; 
+    src: url("./CursedTimer.ttf") format('truetype'); 
+    font-weight: normal;
+    font-style: normal; 
+}
+
 body {
     touch-action: none;
     margin: 0;
     padding: 0;
-    min-height: 100vh; /* Use viewport height */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     font-family: Verdana, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: ivory;
-    background-color: #000; /* Fallback color */
-    background-image: url("bball2");
+    color: #EEEEEE;
+    background-color: #000;
+    background-image: url("1124.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed; /* Keep the background fixed while scrolling */
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
 }
 
-.container {
+#container {
     width: 100%;
-    max-width: 600px;
-    padding: 20px;
-    box-sizing: border-box;
+    max-width: 575px;
+    padding: 1em;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
-    border-radius: 10px;
-}
-
-h1 {
-    font-size: 2rem; /* Use relative font sizes */
-    font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 5px 10px;
-    border: 1px solid whitesmoke;
-    margin-bottom: 10px;
+    text-align: center;
+    background-color: #1B244A;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
 }
 
 #homeScore, #guestScore {
-    font-size: 4rem;
-    font-family: "Orbitron", 'Times New Roman', Times, serif;
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 5px;
-    border: 2px solid whitesmoke;
-    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    font-family: "CursedTimer", sans-serif;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 1rem;
+    margin: 1rem;
+    width: 150px;
+    color: #F94F6D;
+    height: 120px;
 }
 
 .score-btn {
-    font-family: "Orbitron", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 10px 20px;
-    margin: 5px;
-    font-size: 1rem;
-    background-color: rgba(0, 128, 0, 0.8);
-    color: ivory;
-    border: 1px solid whitesmoke;
+    font-family: "CursedTimer", sans-serif;
+    margin-top: 0em;
+    padding: 10px 10px;
+    font-size: 18px;
+    background-color: transparent;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
     border-radius: 5px;
+    width: 45px;
     cursor: pointer;
+    margin-right: 5px;
 }
 
 #newGame-btn {
-    font-family: "Orbitron", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.2rem;
-    margin-top: 20px;
-    padding: 15px 30px;
-    background-color: rgba(255, 0, 0, 0.8);
-    color: ivory;
-    border: 1px solid whitesmoke;
-    border-radius: 5px;
+    margin-top: 3rem;
+    padding: 12px 24px; 
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #F94F6D;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     cursor: pointer;
+    z-index: 1000; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
 }
 
-/* Media Queries for Responsiveness */
-@media screen and (min-width: 768px) {
-    .container {
+#newGame-btn:hover {
+    background-color: #D83B4E;
+}
+
+.team-name {
+    font-family: Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: transparent;
+    color: #EEEEEE;
+    border: none;
+    margin-top: 1rem;
+    width: 120px;
+    outline: none;
+    text-shadow: 2px 2px 2px #000;
+}
+
+@media screen and (min-width: 540px) {
+    #container {
+        display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
     }
-
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    #homeScore, #guestScore {
-        font-size: 5rem;
-    }
-
-    .score-btn {
-        font-size: 1.2rem;
-    }
-
+    
     #newGame-btn {
-        font-size: 1.5rem;
+        margin: auto;
+        padding: 10px 20px;
     }
 }
 
