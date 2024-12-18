@@ -1,21 +1,66 @@
-# cvqGkeH6
+# Basketball Scoreboard
 
-Quick start:
+A simple and responsive basketball scoreboard web application built using **HTML**, **CSS**, and **JavaScript**. This app allows users to keep track of scores for two teams in a basketball game.
+
+## Features
+
+- **Dynamic Score Display**: Updates scores instantly for two teams.
+- **Interactive Design**: User-friendly and visually appealing interface.
+- **Responsive Layout**: Works seamlessly across different screen sizes.
+
+## Demo
+
+[Live Demo](https://scoreboardpn.netlify.app/)
+
+## Technologies Used
+
+- **HTML5** for structuring the app.
+- **CSS3** for styling and responsiveness.
+- **JavaScript** for interactivity and dynamic functionality.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/basketball-scoreboard.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd basketball-scoreboard
+   ```
+3. Open `index.html` in your favorite browser:
+   ```bash
+   open index.html
+   ```
+
+## Usage
+
+1. Open the app in your browser.
+2. Use the interactive buttons to track scores for the two teams.
+3. Press the 'New Game' button to reset scores.
+
+## Project Structure
 
 ```
-$ npm install
-$ npm start
-````
+Basketball-Scoreboard/
+├── index.html    # Main HTML file
+├── styles.css    # CSS file for styling
+└── script.js     # JavaScript file for interactivity
+```
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+## Contributing
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+Contributions are welcome! Feel free to submit a pull request or open an issue to improve this project.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## License
 
-Happy Coding!
+This project is licensed under the [MIT License](LICENSE). Feel free to use it as you see fit.
+
+## Author
+
+- **Philip Nations**  
+  [GitHub](https://github.com/pnations) | [Portfolio](philipnations.com)
+
+---
+
+If you find this project helpful, please ⭐ it on [GitHub](https://github.com/yourusername/basketball-scoreboard).
